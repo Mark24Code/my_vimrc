@@ -164,7 +164,7 @@ set foldlevel=99
 "set cursorcolumn
 
 " 设置 退出vim后，内容显示在终端屏幕, 可以用于查看和复制
-set t_ti= t_te=
+"set t_ti= t_te=
 
 " 打开文件时始终跳转到上次光标所在位置
 autocmd BufReadPost *
