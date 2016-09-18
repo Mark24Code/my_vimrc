@@ -1,12 +1,11 @@
-""""""""""""""""""""""VUNDLE PLUGIN""""""""""""""""""""
-
+""""""""""""""""""""""Vundle配置"""""""""""""""""""""""
 " 不兼容vi
 set nocompatible
 
 " 不检测文件类型
 filetype off
 
-" set the runtime path to include Vundle and initialize
+" Vundle初始化路径
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
@@ -57,10 +56,8 @@ filetype plugin indent on
 " auto-approve removal
 "
 " see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
 
-
-""""""""""""""""""""""BASE CONFIG"""""""""""""""""""""""
+""""""""""""""""""""""基础配置"""""""""""""""""""""""
 
 " 取消备份
 "set nobackup
@@ -179,7 +176,7 @@ autocmd BufReadPost *
 
 
 
-"""""""""""""""""""""""""KEY MAPPING""""""""""""""""""""
+"""""""""""""""""""""""""键位映射""""""""""""""""""""
 
 " 映射切换buffer的键位
 nnoremap [b :bp<CR>
@@ -243,7 +240,7 @@ vnoremap < <gv
 " 上下分割窗口Ctrl+w +s
 " 关闭窗口Ctrl+w  +q
 
-" quicker window switching
+" 窗口切换
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
@@ -253,7 +250,7 @@ nnoremap <C-l> <C-w>l
 imap <C-e> <C-X><C-U>
 
 
-""""""""""""""""""""""""""""""PLUGIN CONFIG""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""插件配置""""""""""""""""""""""""""
 " NerdCommenter
 let g:NERDSpaceDelims=1
 
