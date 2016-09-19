@@ -270,7 +270,7 @@ let g:ctrlp_cmd = 'CtrlPMixed'
 set completefunc=emoji#complete
 
 " instant-markdown
-let g:instant_markdown_slow = 1
+"let g:instant_markdown_slow = 1
 
 " airline
 let g:airline_section_y = '%{strftime("%H:%M")}'
@@ -303,7 +303,7 @@ let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 
 " jshint
-autocmd! BufRead,BufWritePost *.js :JSHint
+"autocmd! BufRead,BufWritePost *.js :JSHint
 
 " vim-table-mode: markdown
 let g:table_mode_corner="|"
